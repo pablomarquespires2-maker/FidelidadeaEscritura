@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fidelidade à Escritura</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: #faf9f6;
+      color: #2c2c2c;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: #f0ece2;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: normal;
+      letter-spacing: 0.05em;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #a8a4b8;
+      font-style: italic;
+    }
+
+    nav {
+      background: #16213e;
+      padding: 0.8rem 1.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #f0ece2;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    ul { list-style: none; }
+
+    li {
+      padding: 0.5rem 0;
+      border-bottom: 1px dotted #ddd;
+    }
+
+    li a {
+      color: #1a1a2e;
+      text-decoration: none;
+    }
+
+    li a:hover { color: #e94560; }
+
+    li .autor {
+      font-style: italic;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.85rem;
+      color: #888;
+      border-top: 1px solid #ddd;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fidelidade à Escritura</h1>
+    <p>Traduções fiéis de clássicos da filosofia e história para o português brasileiro</p>
+  </header>
+
+  <nav>
+    <a href="#filosofia">Filosofia</a>
+    <a href="#historia">História</a>
+    <a href="#sobre">Sobre</a>
+  </nav>
+
+  <main>
+
+    <section id="filosofia">
+      <h2>Filosofia</h2>
+      <ul>
+        <li><a href="filosofia/platao/republica.pdf">A República</a> <span class="autor">— Platão</span></li>
+        <li><a href="filosofia/aristoteles/etica-nicomachea.pdf">Ética a Nicômaco</a> <span class="autor">— Aristóteles</span></li>
+      </ul>
+    </section>
+
+    <section id="historia">
+      <h2>História</h2>
+      <ul>
+        <li><a href="historia/tucidides/guerra-do-peloponeso.pdf">História da Guerra do Peloponeso</a> <span class="autor">— Tucídides</span></li>
+      </ul>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>
+        Este projeto traduz obras em domínio público a partir dos textos originais
+        (grego, latim, etc.) para o português brasileiro, com revisão manual.
+        O objetivo é oferecer traduções fiéis e acessíveis.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    Fidelidade à Escritura — traduções de obras em domínio público.
+  </footer>
+
+</body>
+</html>   
